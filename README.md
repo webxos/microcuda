@@ -44,40 +44,13 @@
 
 ## 🔧 Installation
 
-### 1. Clone the repository
+### Download all files to a folder on your system:
+
+Then bash:
 
 ```bash
-git clone https://github.com/yourusername/microcuda.git
-cd microcuda
-```
-
-### 2. Install system dependencies (Ubuntu/Debian)
-
-```bash
-sudo apt update
-sudo apt install -y python3 python3-venv python3-pip build-essential curl
-```
-
-### 3. Install and start Ollama
-
-```bash
-curl -fsSL https://ollama.com/install.sh | sh
-sudo systemctl start ollama   # or just 'ollama serve' in a terminal
-```
-
-Pull at least one model (the default is `qwen2.5:0.5b`):
-
-```bash
-ollama pull qwen2.5:0.5b
-```
-
-### 4. Run MicroCUDA
-
-Make the launcher executable and run it:
-
-```bash
-chmod +x run.sh
-./run.sh
+cd ~/microcuda
+chmod +x run.sh && ./run.sh
 ```
 
 On first launch, the script will:
@@ -89,7 +62,7 @@ On first launch, the script will:
 
 ---
 
-## 🎮 Usage
+## Usage
 
 ### Command‑line arguments
 
@@ -139,7 +112,7 @@ Each result is printed as JSON with measured time, TFLOPS/GB/s, and the detected
 
 ---
 
-## ⚙️ Architecture
+## Architecture
 
 ```
 ┌─────────────────┐     ┌─────────────────────┐     ┌──────────────┐
@@ -177,7 +150,7 @@ The resulting C++ code is compiled with `-fopenmp` and the most advanced SIMD fl
 
 ---
 
-## 🧪 Example: Compiling a CUDA Kernel
+## Example: Compiling a CUDA Kernel
 
 Inside the **CPU Kernels** tab, click **Compile CUDA**. The following kernel will be compiled and linked:
 
@@ -192,7 +165,7 @@ MicroCUDA generates a complete `main()` that launches blocks/threads using OpenM
 
 ---
 
-## 🛠️ Development & Customisation
+## 🛠️ Development & Customisation Ideas (Use at your own risk)
 
 ### Adding a new kernel benchmark
 
