@@ -1,5 +1,7 @@
 # MICROCUDA v2.1 – CPU-Accelerated AI Harness
 
+![Alt Text](https://github.com/webxos/phalanx/blob/main/assets/logo.jpeg)
+
 **MicroCUDA** is a lightweight framework that brings GPU‑like compute abstractions and a local AI agent to your CPU. It simulates a CUDA runtime using OpenMP and SIMD (AVX2/AVX‑512), runs large language models via Ollama, and provides a terminal user interface (TUI) for interacting with the AI agent, running CPU‑accelerated benchmarks, and compiling “CUDA” kernels directly to C++/OpenMP.
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
