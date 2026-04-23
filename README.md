@@ -200,3 +200,9 @@ Set the environment variable `OLLAMA_HOST` before starting MicroCUDA, or modify 
 ## 📄 License
 
 MIT 
+
+## SCREENSHOTS:
+
+![Alt Text](https://github.com/webxos/microcuda/blob/main/assets/screen1.png)
+
+![Alt Text](https://github.com/webxos/microcuda/blob/main/assets/screen2.png)
