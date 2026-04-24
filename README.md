@@ -203,6 +203,6 @@ MIT
 
 ## SCREENSHOTS:
 
-![Alt Text](https://github.com/webxos/microcuda/blob/main/assets/screen4.png)
+![Alt Text](https://github.com/webxos/microcuda/blob/main/assets/screen1.png)
 
 ![Alt Text](https://github.com/webxos/microcuda/blob/main/assets/screen3.png)
