@@ -14,42 +14,42 @@
 
 MicroCUDA v2.2 transforms the framework into a **truly agentic, memory‑augmented, and proactive** assistant. Key enhancements:
 
-### 🤖 Model‑Driven Tool Use
+### Model‑Driven Tool Use
 - The LLM can now **request actions** (benchmarks, compilation, memory operations, webhooks, task scheduling) by outputting `<tool name="..." args='...'></tool>` inside its reasoning.
 - The backend executes the tool and provides results back to the model – small models gain genuine agency without hard‑coded TUI buttons.
 
-### 💾 Long‑Term Core Memory & Conversation History
+### Long‑Term Core Memory & Conversation History
 - **SQLite‑backed storage** – key‑value facts survive restarts.
 - **Conversation history** persists across sessions; the model can recall previous interactions.
 - New memory commands: `/memory list`, `/memory set key value`, plus dedicated “Memory” tab in TUI.
 
-### ⏰ Proactive Tasks (Scheduler)
+### Proactive Tasks (Scheduler)
 - Schedule recurring actions using [`apscheduler`](https://apscheduler.readthedocs.io/):
   - Send webhooks, run custom skills, or call APIs.
   - Add tasks via `/task add "name" interval_seconds action` or through the agent.
   - View/manage tasks with `/task list` and `/task remove`.
 
-### 🔌 Webhook Support
+### Webhook Support
 - Outgoing webhooks can be triggered manually or by scheduled tasks.
 - Integrate MicroCUDA with external automation (e.g., notify a server, update a dashboard).
 
-### 🛠️ Dynamic Skill Abstraction
+### Dynamic Skill Abstraction
 - Users (or the agent) can add new skills without modifying Python code.
 - Skills are shell commands or Python one‑liners stored in the database.
 - TUI **Skills tab** to manage them; agent can list and invoke skills via `add_skill` / `list_skills`.
 
-### 🖥️ Improved TUI & Scrolling
+### Improved TUI & Scrolling
 - **Auto‑scrolling** in chat and kernel logs – new content always in view.
 - **Keyboard shortcuts** fixed: `Ctrl+Q` quits, `Ctrl+L` clears active log, `PgUp`/`PgDn` scroll, arrow keys move focus.
 - New **Memory** and **Skills** tabs for visual management.
 
-### 🧠 Smarter Agent Prompts
+### Smarter Agent Prompts
 - System prompt explicitly describes available tools.
 - Agent performs chain‑of‑thought inside `<thinking>`, then optionally calls tools, and refines its final answer based on tool results.
 
 ---
 
-## Features
+## Features added in v2.1
 
 - **CPU‑Accelerated “CUDA” Bridge**  
   Translates a subset of CUDA C++ (``__global__``, ``__device__``, ``threadIdx.x``, etc.) into OpenMP‑parallelised C++ with SIMD intrinsics.
