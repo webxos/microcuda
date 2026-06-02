@@ -1,4 +1,4 @@
-# MICROCUDA v2.2 – CPU-Accelerated AI Harness
+# MICROCUDA v2.2
 
 ![Alt Text](https://github.com/webxos/microcuda/blob/main/assets/logo.jpeg)
 
