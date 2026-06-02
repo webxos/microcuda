@@ -158,7 +158,7 @@ Each result is printed as JSON with measured time, TFLOPS/GB/s, and the detected
 ```
 ┌─────────────────┐     ┌─────────────────────┐     ┌──────────────┐
 │  microcuda_tui  │◄───►│   FastAPI backend   │◄───►│   Ollama     │
-│   (Textual)     │     │   (port 8472)       │     │   (port 11434)│
+│   (Textual)     │     │   (port 8472)       │     │  (port 11434)│
 └─────────────────┘     └─────────────────────┘     └──────────────┘
                                    │
                                    ▼
