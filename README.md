@@ -68,7 +68,7 @@ MicroCUDA v2.2 transforms the framework into a **truly agentic, memory‑augment
 - **“CUDA” Kernel Compilation**  
   Write a simple CUDA kernel (e.g., vector addition), click “Compile CUDA”, and MicroCUDA generates a native binary using `g++` with OpenMP and AVX2/AVX‑512 flags.
 
-- **No GPU Required** – runs on any modern x86‑64 CPU with Linux (and probably WSL2).
+- **No GPU Required** – runs on any modern x86‑64 CPU with Linux (and WSL2).
 
 ---
 
