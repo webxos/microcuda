@@ -1,4 +1,4 @@
-# MICROCUDA v2.2
+# MICROCUDA v2.2 (UNDER DEVELOPMENT)
 
 ![Alt Text](https://github.com/webxos/microcuda/blob/main/assets/logo.jpeg)
 
