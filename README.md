@@ -47,7 +47,7 @@
 
 ---
 
-## Features added in v2.1
+## Features
 
 - **CPU‑Accelerated “CUDA” Bridge**  
   Translates a subset of CUDA C++ (``__global__``, ``__device__``, ``threadIdx.x``, etc.) into OpenMP‑parallelised C++ with SIMD intrinsics.
