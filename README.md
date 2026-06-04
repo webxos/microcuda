@@ -12,8 +12,6 @@
 
 ## Update: v2.2 (April 24th, 2026)
 
-MicroCUDA v2.2 transforms the framework into a **truly agentic, memory‑augmented, and proactive** assistant. Key enhancements:
-
 ### Model‑Driven Tool Use
 - The LLM can now **request actions** (benchmarks, compilation, memory operations, webhooks, task scheduling) by outputting `<tool name="..." args='...'></tool>` inside its reasoning.
 - The backend executes the tool and provides results back to the model – small models gain genuine agency without hard‑coded TUI buttons.
