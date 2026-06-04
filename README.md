@@ -2,7 +2,7 @@
 
 ![Alt Text](https://github.com/webxos/microcuda/blob/main/assets/logo.jpeg)
 
-**MicroCUDA** is a lightweight framework that brings GPU‑like compute abstractions and a local AI agent to your CPU. It simulates a CUDA runtime using OpenMP and SIMD (AVX2/AVX‑512), runs large language models via Ollama, and provides a terminal user interface (TUI) for interacting with the AI agent, running CPU‑accelerated benchmarks, and compiling “CUDA” kernels directly to C++/OpenMP.
+**MicroCUDA** is a lightweight framework that brings GPU‑like compute abstractions and a local AI agent to your CPU. It simulates a CUDA runtime using OpenMP and SIMD (AVX2/AVX‑512). MICROCUDA runs large language models via Ollama, and provides a terminal user interface (TUI) for interacting with the AI agent. Designed for CPU‑accelerated benchmarks, and compiling “CUDA” kernels directly to C++/OpenMP.
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Python](https://img.shields.io/badge/python-3.8%2B-blue)
